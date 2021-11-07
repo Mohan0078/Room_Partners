@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(pink, blueviolet, orange);
+}
+label {
+  color: #f00;
+  font-size: 18px;
+  margin: 5px;
+}
+
+span {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+div {
+  margin: 5px;
+}
+
+.card1 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #efefef;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container1 {
+  padding: 2px 16px;
+}
